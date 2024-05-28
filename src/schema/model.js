@@ -1,5 +1,12 @@
 
 import { model } from "mongoose";
-import basicSchema from "./basicSchema.js";
+import registerSchema from "./registerSchema.js";
+import adminschema from "./adminSchema.js"
 
-export let Basic = model("Basic",basicSchema)
+
+
+
+
+
+export let Register=model("Register",registerSchema)
+export let admin=model("admin",adminschema)
